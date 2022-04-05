@@ -858,3 +858,28 @@ body {
 }
 /* fooder 終了 */
 }
+
+/* ----------------------- */
+/* 縮小四段階 */
+@media (max-width: 500px) {
+
+    .midasi1 {
+        left:0;
+        right: 0;
+        transform: none;
+        margin: auto;
+    }
+
+    .late {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .cofimg img {
+        display: none;
+    }
+    
+    .panimg img {
+       display: none;
+    }
+}
