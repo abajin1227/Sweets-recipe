@@ -1,0 +1,983 @@
+@import url(destyle.css);
+
+body {
+    text-align: center;
+}
+
+/* header 開始 */
+.header-home {
+    font-family: 'Sawarabi Mincho', sans-serif;
+    padding-top: 20px;
+    background-color: #40e962c9;
+    position: relative;
+}
+
+.midasi1 {
+    font-weight: 1000;
+    color: #8B4513;
+    position:absolute;
+    font-size: 18px;
+    transform: rotate(4deg);
+    left: 400px;
+    right: 0;
+    z-index: 100;
+}
+
+.midasi2 {
+    font-weight: 1000;
+    margin-top: 3px;
+    color: white;
+    font-size: 50px;
+    letter-spacing: 5px;
+    z-index: 100;
+}
+
+.midasi3 {
+    font-weight: 100;
+    color: #686868;
+    margin-top: 5px;
+    font-size: 15px;
+    padding-bottom: 10px;
+    z-index: 100;
+}
+
+.cofimg img {
+    width: 100px;
+    height: 110px;
+    position:absolute;
+    z-index: 20;
+    left: 600px;
+    right: 0;
+    margin: auto;
+
+}
+
+.panimg img {
+    width: 90px;
+    height: 90px;
+    position:absolute;
+   text-align: center;
+    z-index: 20;
+    left: 0;
+    right: 600px;
+    top: 20px;
+    margin: auto;
+}
+
+.late {
+    margin-top: 5px;
+    margin-left: 850px;
+    font-size: 16px;
+    color: #686868;
+}
+
+.header-nav ul{
+    color: #8B4513;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+.header-nav a{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.header-nav a:hover {
+    cursor: pointer;
+    color: #f7ad3f;
+}
+/* header 終了 */
+
+/* Tearms 開始 */
+.nakami2{
+    max-width: 780px;
+    border-radius: 20px;
+    margin-top: 30px;
+    margin-bottom: 130px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: antiquewhite;
+    border: #8B4513 dashed 2px;
+    padding: 10px;
+}
+
+.nakami2 b{
+    text-align: center;
+    font-size: 20px;
+}
+
+.nakami2 p{
+    text-align: left;
+    font-size: 18px;
+    margin-top: 5px;
+}
+/* Terms 終了 */
+
+/* news 開始 */
+.section-header h1{
+    color: #8B4513;
+    margin-top: 100px;
+    font-size: 20px;
+}
+
+.section-header h2{
+    color: #8B4513;
+    font-size: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 800px;
+    border-bottom: 3px solid #8B4513;
+}
+
+.nakami1 {
+    background-color: antiquewhite;
+    max-width: 800px;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.news-table{
+    display: block;
+    margin-top: 20px;
+    border-top: 1px dashed #777777;
+    max-width: 760px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    margin-bottom: 180px;
+}
+
+.News tr {
+    display: block;
+}
+
+.News th {
+    font-size: 20px;
+    border-bottom: 1px dashed #777777;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    padding-right: 610px;
+}
+
+.News td1{
+    font-size: 16px;
+    top: 30px;
+    left: 0;
+    right: 30px;
+    left: 320px;
+    max-width: 800px;
+    position:absolute;
+}
+
+.News td2{
+    font-size: 16px;
+    top: 115px;
+    left: 0;
+    right: 30px;
+    margin: auto;
+    max-width: 800px;
+    position:absolute;
+}
+
+.News td3{
+    font-size: 16px;
+    top: 200px;
+    left: 0;
+    right: 30px;
+    margin: auto;
+    max-width: 800px;
+    position:absolute;
+}
+/* news 終了 */
+
+
+/* Recipe 開始 */
+.recipe-header {
+    display: flex;
+    margin-top: 50px;
+    color: #37395a;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 700px;
+    border-bottom: 2px solid #969696;
+}
+
+.recipe-header h3{
+    text-align: left;
+    font-size: 30px;
+}
+
+.recipe-header h4{
+    display: block;
+    text-align: right;
+    font-size: 25px;
+    margin-top: 5px;
+    padding-left: 60%;
+}
+
+.recipe-header h4:hover {
+    cursor: pointer;
+    color: #f7ad3f;
+}
+
+.recipe-header h4:active {
+    background: rgb(127, 194, 239);
+    content: "詳細∨";
+}
+
+.recipe-item ul {
+    display: flex;
+    justify-content: stretch;
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    flex-wrap: wrap;
+}
+
+.recipe-item ul p {
+    color: #8B4513;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.set1 img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 10px 30px;
+}
+
+.item1,
+.item2,
+.item3,
+.item4,
+.item5,
+.item6,
+.item7,
+.item8,
+.item9,
+.item10,
+.item11,
+.item12,
+.item13,
+.item14,
+.item15,
+.item16,
+.item17,
+.item18,
+.item19,
+.item20,
+.item21,
+.item22 {
+    font-size: 15px;
+    background-color: antiquewhite;
+    width: auto;
+    height: auto;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+    cursor: pointer;
+    transition-duration: 0.3s;
+}
+
+.item20 p{
+    font-size: 13px;
+}
+
+.item1:hover,
+.item2:hover,
+.item3:hover,
+.item4:hover,
+.item5:hover,
+.item6:hover,
+.item7:hover,
+.item8:hover,
+.item9:hover,
+.item10:hover,
+.item11:hover,
+.item12:hover,
+.item13:hover,
+.item14:hover,
+.item15:hover,
+.item16:hover,
+.item17:hover,
+.item18:hover,
+.item19:hover,
+.item20:hover,
+.item21:hover,
+.item22:hover{
+    opacity: 0.6;
+    transition-duration: 0.3s;
+}
+
+.recipe-item p:hover {
+    cursor: pointer;
+    color: #f7ad3f;
+}
+
+.item2 {
+    background-color: antiquewhite;
+    width: auto;
+    height: auto;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+/* Recipe 終了 */
+
+
+/* fooder 開始 */
+.fooder {
+    background-color: #40e962c9;
+    margin-top: 80px;
+}
+
+.footer-title1 {
+    padding-top: 30px;
+    font-family: 'Sawarabi Mincho', sans-serif;
+    font-weight: 1000;
+    color: white;
+    font-size: 40px;
+    letter-spacing: 5px;
+}
+
+.footer-title1:hover {
+    transform: scale(1.2);
+  transition-duration: 0.5s;
+ }
+
+.footer-title2 {
+    padding-top: 20px;
+    font-family: 'Sawarabi Mincho', sans-serif;
+    font-weight: 1000;
+    color: green;
+    font-size: 30px;
+    padding-bottom: 30px;
+}
+
+.instagram p {
+    font-size: 15px;
+    font-weight: 1000;
+    display: center;
+}
+
+.instagram b {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: black;
+    font-size: 13px;
+    color: white;
+    padding: 3px;
+}
+
+.instagram img {
+    width: 100px;
+    background-color: white;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.instagram img:hover {
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.5);
+    transform: translateY(-5px);
+    transition-duration: 0.5s;
+}  
+
+.tyosaku {
+    color: white;
+    font-size: 15px;
+    margin-top: 30px;
+    padding-bottom: 10px;
+}
+/* fooder 終了 */
+
+
+
+/* ----------------------- */
+/* 縮小一段階 */
+@media (max-width: 1200px) {
+
+/* header 開始 */
+.midasi1 {
+    font-size: 15px;
+}
+
+.midasi2 {
+    font-size: 45px;
+    letter-spacing: 5px;
+}
+
+.midasi3 {
+    font-size: 15px;
+}
+
+.cofimg img {
+    width: 90px;
+    height: 100px;
+    left: 565px;
+    right: 0;
+    margin: auto;
+}
+
+.panimg img {
+    width: 70px;
+    height: 70px;
+    left: 0px;
+    right: 565px;
+    margin: auto;
+}
+
+.late {
+    margin-left: 640px;
+    font-size: 14px;
+}
+
+.header-nav ul{
+    font-size: 20px;
+}
+.header-nav a{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+/* header 終了 */
+
+/* Tearms 開始 */
+.nakami2{
+    max-width: 680px;
+    padding: 10px;
+}
+
+.nakami2 b{
+    font-size: 18px;
+}
+
+.nakami2 p{
+    font-size: 16px;
+}
+/* Terms 終了 */
+
+/* news 開始 */
+.section-header h1{
+    font-size: 18px;
+}
+
+.section-header h2{
+    font-size: 45px;
+    max-width: 700px;
+}
+
+.nakami1 {
+    max-width: 700px;
+}
+
+.news-table{
+    max-width: 660px;
+}
+
+.News th {
+    font-size: 18px;
+    padding-right: 520px;
+}
+
+.News td1{
+    font-size: 14px;
+    max-width: 700px;
+    left: auto;
+    left: 280px;
+}
+
+.News td2{
+    font-size: 14px;
+    max-width: 700px;
+}
+
+.News td3{
+    font-size: 14px;
+    max-width: 700px;
+}
+/* news 終了 */
+
+
+/* Recipe 開始 */
+.recipe-header {
+    max-width: 600px;
+}
+
+.recipe-header h3{
+    font-size: 27px;
+}
+
+.recipe-header h4{
+    font-size: 22px;
+    padding-left: 59%;
+}
+
+.recipe-item ul {
+    width: 600px;
+}
+
+.recipe-item ul p {
+    padding-bottom: 8px;
+}
+
+.set1 img {
+    width: 140px;
+    height: 140px;
+    margin: 10px 20px;
+}
+
+.item1 p,
+.item3 p,
+.item9 p,
+.item10 p,
+.item11 p,
+.item13 p,
+.item20 p{
+    font-size: 11px;
+}
+/* Recipe 終了 */
+
+
+/* fooder 開始 */
+.footer-title1 {
+    font-size: 36px;
+    letter-spacing: 5px;
+}
+
+.footer-title2 {
+    font-size: 26px;
+}
+
+.instagram p {
+    font-size: 13px;
+}
+
+.instagram b {
+    font-size: 11px;
+    padding: 2px;
+}
+
+.instagram img {
+    width: 90px;
+}
+
+.tyosaku {
+    font-size: 13px;
+}
+/* fooder 終了 */
+}
+
+
+
+/* ----------------------- */
+/* 縮小二段階 */
+@media (max-width: 800px) {
+
+/* header 開始 */
+.midasi1 {
+    font-size: 12px;
+}
+
+.midasi2 {
+    font-size: 40px;
+    letter-spacing: 4.5px;
+}
+
+.midasi3 {
+    font-size: 13px;
+}
+
+.cofimg img {
+    width: 80px;
+    height: 90px;
+    left: 490px;
+    right: 0;
+    margin: auto;
+}
+
+.panimg img {
+    width: 60px;
+    height: 60px;
+    left: 0px;
+    right: 490px;
+    margin: auto;
+}
+
+.late {
+    margin-left: 420px;
+    font-size: 12px;
+}
+
+.header-nav ul{
+    font-size: 15px;
+}
+.header-nav a{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+/* header 終了 */
+
+/* Tearms 開始 */
+.nakami2{
+    max-width: 580px;
+    padding: 10px;
+}
+
+.nakami2 b{
+    font-size: 16px;
+}
+
+.nakami2 p{
+    font-size: 14px;
+}
+/* Terms 終了 */
+
+/* news 開始 */
+.section-header h1{
+    font-size: 15px;
+}
+
+.section-header h2{
+    font-size: 40px;
+    max-width: 600px;
+}
+
+.nakami1 {
+    max-width: 600px;
+}
+
+.news-table{
+    max-width: 560px;
+}
+
+.News th {
+    font-size: 15px;
+    padding-right: 440px;
+}
+
+.News td1{
+    font-size: 12px;
+    max-width: 600px;
+    left: auto;
+    left: 200px;
+}
+
+.News td2{
+    font-size: 12px;
+    max-width: 600px;
+}
+
+.News td3{
+    font-size: 12px;
+    max-width: 600px;
+}
+/* news 終了 */
+
+
+/* Recipe 開始 */
+.recipe-header {
+    max-width: 500px;
+}
+
+.recipe-header h3{
+    font-size: 24px;
+}
+
+.recipe-header h4{
+    font-size: 19px;
+    padding-left: 56%;
+}
+
+.recipe-item ul {
+    width: 510px;
+}
+
+.recipe-item ul p {
+    padding-bottom: 8px;
+}
+
+.set1 img {
+    width: 120px;
+    height: 120px;
+    margin: 10px 20px;
+}
+
+.item1,
+.item2,
+.item3,
+.item4,
+.item5,
+.item6,
+.item7,
+.item8,
+.item9,
+.item10,
+.item11,
+.item12,
+.item13,
+.item14,
+.item15,
+.item16,
+.item17,
+.item18,
+.item19,
+.item20,
+.item21,
+.item22 {
+    font-size: 13px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.item1 p,
+.item3 p,
+.item9 p,
+.item10 p,
+.item11 p,
+.item13 p,
+.item20 p{
+    font-size: 10px;
+}
+/* Recipe 終了 */
+
+
+/* fooder 開始 */
+.footer-title1 {
+    font-size: 32px;
+    letter-spacing: 4px;
+}
+
+.footer-title2 {
+    font-size: 22px;
+}
+
+.instagram p {
+    font-size: 11px;
+}
+
+.instagram b {
+    font-size: 9px;
+    padding: 2px;
+}
+
+.instagram img {
+    width: 90px;
+}
+
+.tyosaku {
+    font-size: 12px;
+}
+/* fooder 終了 */
+}
+
+
+
+
+
+/* ----------------------- */
+/* 縮小三段階 */
+@media (max-width: 600px) {
+
+/* header 開始 */
+.midasi1 {
+    left: 350px;
+    right: 0;
+    font-size: 9px;
+}
+
+.midasi2 {
+    font-size: 35px;
+    letter-spacing: 4px;
+}
+
+.midasi3 {
+    font-size: 11px;
+}
+
+.cofimg img {
+    width: 75px;
+    height: 85px;
+    left: 425px;
+    right: 0;
+    margin: auto;
+}
+
+.panimg img {
+    width: 55px;
+    height: 55px;
+    left: 0px;
+    right: 425px;
+    margin: auto;
+}
+
+.late {
+    margin-left: 320px;
+    font-size: 10px;
+}
+
+.header-nav ul{
+    font-size: 13px;
+}
+.header-nav a{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+/* header 終了 */
+
+/* Tearms 開始 */
+.nakami2{
+    max-width: 380px;
+    padding: 10px;
+}
+
+.nakami2 b{
+    font-size: 14px;
+}
+
+.nakami2 p{
+    font-size: 12px;
+}
+/* Terms 終了 */
+
+/* news 開始 */
+.section-header h1{
+    font-size: 12px;
+}
+
+.section-header h2{
+    font-size: 30px;
+    max-width: 400px;
+}
+
+.nakami1 {
+    max-width: 400px;
+}
+
+.news-table{
+    max-width: 360px;
+}
+
+.News th {
+    font-size: 12px;
+    padding-right: 260px;
+}
+
+.News td1{
+    font-size: 10px;
+    max-width: 400px;
+    left: auto;
+    left: 150px;
+}
+
+.News td2{
+    font-size: 10px;
+    max-width: 400px;
+}
+
+.News td3{
+    font-size: 10px;
+    max-width: 400px;
+}
+/* news 終了 */
+
+
+/* Recipe 開始 */
+.recipe-header {
+    max-width: 350px;
+}
+
+.recipe-header h3{
+    font-size: 21px;
+}
+
+.recipe-header h4{
+    font-size: 16px;
+    padding-left: 46%;
+}
+
+.recipe-item ul {
+    width: 350px;
+}
+
+.recipe-item ul p {
+    padding-bottom: 8px;
+}
+
+.set1 img {
+    width: 120px;
+    height: 120px;
+    margin: 10px 20px;
+}
+
+.item1,
+.item2,
+.item3,
+.item4,
+.item5,
+.item6,
+.item7,
+.item8,
+.item9,
+.item10,
+.item11,
+.item12,
+.item13,
+.item14,
+.item15,
+.item16,
+.item17,
+.item18,
+.item19,
+.item20,
+.item21,
+.item22 {
+    font-size: 13px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.item1 p,
+.item3 p,
+.item9 p,
+.item10 p,
+.item11 p,
+.item13 p,
+.item20 p{
+    font-size: 10px;
+}
+/* Recipe 終了 */
+
+
+/* fooder 開始 */
+.footer-title1 {
+    font-size: 28px;
+    letter-spacing: 2px;
+}
+
+.footer-title2 {
+    font-size: 18px;
+}
+
+.instagram p {
+    font-size: 9px;
+}
+
+.instagram b {
+    font-size: 7px;
+    padding: 1px;
+}
+
+.instagram img {
+    width: 80px;
+}
+
+.tyosaku {
+    font-size: 11px;
+}
+/* fooder 終了 */
+}
