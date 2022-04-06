@@ -339,6 +339,7 @@ body {
 }
 
 .footer-title1 {
+    display: block;
     padding-top: 30px;
     font-family: 'Sawarabi Mincho', sans-serif;
     font-weight: 1000;
