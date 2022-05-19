@@ -40,7 +40,7 @@
         </div>
        
         <div class="late">
-            <p>最終更新日:2022/4/6</p>
+            <p>最終更新日:2022/4/</p>
         </div>
 
         <nav class="header-nav">
@@ -89,12 +89,12 @@
             <div class="news-table">
                 <table>
                     <tr>
-                        <th>2022/04/06</th>
-                        <td1>この度当サイトを新設させていただきました！初めてご利用の方は規約を必ずお読みください。</td1>
+                        <th>2022/05/18</th>
+                        <td1>一部システムの改善(レシピのメニューバーなど)を施しました。</td1>
                     </tr>
                     <tr>
-                        <th>0000/00/00</th>
-                        <td2>none</td2>
+                        <th>2022/04/06</th>
+                        <td2>この度当サイトを新設させていただきました！初めてご利用の方は規約を必ずお読みください。</td2>
                     </tr> <tr>
                         <th>0000/00/00</th>
                         <td3>none</td3>
@@ -114,12 +114,12 @@
 
         <div class="recipe-header">
             <h3>〇パンケーキ</h3>
-            <h4>閉じる∧</h4>
+            <h4 id="btn1">閉じる∧</h4>
             <!-- 詳細∨ -->
         </div>
         
         <div class="recipe-item">
-            <div class="set1">
+            <div class="set1" id="set1">
                 <ul>
                     <li>
                         <a href="/Sweets-recipe/home/recipe1.html">
@@ -143,12 +143,12 @@
 
         <div class="recipe-header">
             <h3>〇焼き菓子　</h3>
-            <h4>閉じる∧</h4>
+            <h4 id="btn2">閉じる∧</h4>
             <!-- 詳細∨ -->
         </div>
         
         <div class="recipe-item">
-            <div class="set1">
+            <div class="set2" id="set2">
                 <ul>
                     <li>   
                         <a href="/Sweets-recipe/home/recipe3.html">
@@ -204,12 +204,12 @@
 
         <div class="recipe-header">
             <h3>〇ケーキ　　</h3>
-            <h4>閉じる∧</h4>
+            <h4 id="btn3">閉じる∧</h4>
             <!-- 詳細∨ -->
         </div>
         
         <div class="recipe-item">
-            <div class="set1">
+            <div class="set3" id="set3">
                 <ul>
                     <li>
                         <a href="/Sweets-recipe/home/recipe9.html">
@@ -281,12 +281,12 @@
 
         <div class="recipe-header">
             <h3>〇その他　　</h3>
-            <h4>閉じる∧</h4>
+            <h4 id="btn4">閉じる∧</h4>
             <!-- 詳細∨ -->
         </div>
         
         <div class="recipe-item">
-            <div class="set1">
+            <div class="set4" id="set4">
                 <ul>
                     <li>
                         <a href="/Sweets-recipe/home/recipe17.html">
@@ -376,6 +376,51 @@
     $('html').animate({scrollTop:position}, speed, 'swing');
     });
     });
+    
+    $(document).ready(function(){
+    $('#btn1').click(function(){
+        $("#btn1").text("　詳細∨")
+        $("#set1").slideToggle(1000);
+        $('#btn1').click(function(){
+        $("#btn1").text("閉じる∧")
+        $("#set1").slideToggle(1000);
+    })
+    })
+});
+
+$(document).ready(function(){
+    $('#btn2').click(function(){
+        $("#btn2").text("　詳細∨")
+        $("#set2").slideToggle(1000);
+        $('#btn2').click(function(){
+        $("#btn2").text("閉じる∧")
+        $("#set2").slideToggle(1000);
+    })
+    })
+});
+
+$(document).ready(function(){
+    $('#btn3').click(function(){
+        $("#btn3").text("　詳細∨")
+        $("#set3").slideToggle(1000);
+        $('#btn3').click(function(){
+        $("#btn3").text("閉じる∧")
+        $("#set3").slideToggle(1000);
+    })
+    })
+});
+
+$(document).ready(function(){
+    $('#btn4').click(function(){
+        $("#btn4").text("　詳細∨")
+        $("#set4").slideToggle(1000);
+        $('#btn4').click(function(){
+        $("#btn4").text("閉じる∧")
+        $("#set4").slideToggle(1000);
+    })
+    })
+});
+
 </script>
 
 </html>
