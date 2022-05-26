@@ -870,6 +870,15 @@ body {
         margin: auto;
     }
 
+    .midasi2 {
+        font-size: 30px;
+        letter-spacing: 3px;
+    }
+    
+    .midasi3 {
+        font-size: 10px;
+    }
+
     .late {
         margin-left: 0;
         margin-right: 0;
@@ -882,4 +891,36 @@ body {
     .panimg img {
        display: none;
     }
+
+    .recipe-header h1{
+        font-size: 25px;
+        max-width: 460px;
+    }
+    
+    .recipe-header img {
+        width: 150px;
+        height: 100%;
+    }
+    
+    .recipe-header h2 {
+        font-weight: 500px;
+        margin-left: 5px;
+        font-size: 12px;
+        margin-bottom: 5px;
+    }
+
+    .zairyou span {
+        right: 2px;
+    }
+
+    .tejun li {
+        width: 420px;
+    }
+
+    .footer-title1:hover {
+        transform: scale(1.0);
+      transition-duration: 0.5s;
+     }
+
+
 }
